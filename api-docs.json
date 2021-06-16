@@ -1,8 +1,8 @@
 {
     "openapi": "3.0.1",
     "info": {
-        "title": "Backend Santander Stock Screener",
-        "description": "Backend for the clone of the Santander stock screener website",
+        "title": "Santander Homebroker Backend",
+        "description": "Backend for the clone of the Santander home broker",
         "termsOfService": "http://swagger.io/terms",
         "license": {
             "name": "Apache 2.0",
@@ -10,14 +10,18 @@
         },
         "version": "1.0.0"
     },
-    "servers": [{
-        "url": "http://localhost:8080",
-        "description": "Generated server url"
-    }],
+    "servers": [
+        {
+            "url": "http://localhost:8080",
+            "description": "Generated server url"
+        }
+    ],
     "paths": {
         "/stock": {
             "get": {
-                "tags": ["stock-controller"],
+                "tags": [
+                    "stock-controller"
+                ],
                 "operationId": "findAll",
                 "responses": {
                     "200": {
@@ -36,7 +40,9 @@
                 }
             },
             "put": {
-                "tags": ["stock-controller"],
+                "tags": [
+                    "stock-controller"
+                ],
                 "operationId": "update",
                 "requestBody": {
                     "content": {
@@ -62,7 +68,9 @@
                 }
             },
             "post": {
-                "tags": ["stock-controller"],
+                "tags": [
+                    "stock-controller"
+                ],
                 "operationId": "save",
                 "requestBody": {
                     "content": {
@@ -90,17 +98,21 @@
         },
         "/stock/{id}": {
             "get": {
-                "tags": ["stock-controller"],
+                "tags": [
+                    "stock-controller"
+                ],
                 "operationId": "findById",
-                "parameters": [{
-                    "name": "id",
-                    "in": "path",
-                    "required": true,
-                    "schema": {
-                        "type": "integer",
-                        "format": "int64"
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
                     }
-                }],
+                ],
                 "responses": {
                     "200": {
                         "description": "OK",
@@ -115,17 +127,21 @@
                 }
             },
             "delete": {
-                "tags": ["stock-controller"],
+                "tags": [
+                    "stock-controller"
+                ],
                 "operationId": "delete",
-                "parameters": [{
-                    "name": "id",
-                    "in": "path",
-                    "required": true,
-                    "schema": {
-                        "type": "integer",
-                        "format": "int64"
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
                     }
-                }],
+                ],
                 "responses": {
                     "200": {
                         "description": "OK",
@@ -142,7 +158,9 @@
         },
         "/stock/today": {
             "get": {
-                "tags": ["stock-controller"],
+                "tags": [
+                    "stock-controller"
+                ],
                 "operationId": "findByToday",
                 "responses": {
                     "200": {
@@ -165,7 +183,12 @@
     "components": {
         "schemas": {
             "StockDTO": {
-                "required": ["date", "name", "price", "variation"],
+                "required": [
+                    "date",
+                    "name",
+                    "price",
+                    "variation"
+                ],
                 "type": "object",
                 "properties": {
                     "id": {
