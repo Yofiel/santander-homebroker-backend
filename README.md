@@ -1,10 +1,10 @@
 # Backend para Home Broker/Tela de Cotações do Santander (Backend for Santander Home Broker)
 
-**pt_BR**: Backend para o clone da tela de cotações/home broker do Santander. Esse projeto foi feito na Santander Dev Week patrocionada pelo Santander.
+**pt_BR**: Backend para o clone da tela de cotações/home broker do Santander. Esse projeto foi feito na Santander Dev Week patrocionada pelo Santander. O projeto utiliza Maven, Spring, Hibernate e PostgreSQL.
 
 ---
 
-**en**: Backend for the clone of the Santander home broker. This project was done at Santander Dev Week sponsored by Santander.
+**en**: Backend for the clone of the Santander home broker. This project was done at Santander Dev Week sponsored by Santander. The project uses Maven, Spring, Hibernate and PostgreSQL.
 
 
 ## Documentação (Documentation)
