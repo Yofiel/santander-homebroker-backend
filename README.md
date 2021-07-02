@@ -9,7 +9,7 @@
 
 ## Documentação (Documentation)
 
-**pt_BR**: Para facilitar a documentação do projeto, é utilizada a especificação OpenAPI (OAS) para RESTful APIs através da interface provida pelo projeto Swagger. O swagger-ui pode ser acessado com `<seu-servidor-ou-localhost>:8080/swagger-ui.html`. No swagger-ui você poderá consultar e testar as funcionalidades providas pela API RESTful desse projeto.
+**pt_BR**: Para facilitar a documentação do projeto, é utilizada a especificação OpenAPI (OAS) para RESTful APIs através da interface provida pelo projeto Swagger. O swagger-ui pode ser acessado com `<seu-servidor-ou-localhost>:8080/swagger-ui.html`. No swagger-ui você poderá consultar e testar as funcionalidades providas pela API REST desse projeto.
 
 Segue prévia do swagger-ui:
 
@@ -20,7 +20,7 @@ Por questões de praticidade, um arquivo JSON com as definições da API está n
 
 ---
 
-**en**: To help with project documentation, the OpenAPI specification (OAS) for RESTful APIs is used with the graphical interface (web based) provided by the Swagger project. The swagger-ui can be accessed with `<your-server-or-localhost>:8080/swagger-ui.html`. With swagger-ui you will be able to consult and test the functionalities provided by the RESTful API of this project.
+**en**: To help with project documentation, the OpenAPI specification (OAS) for RESTful APIs is used with the graphical interface (web based) provided by the Swagger project. The swagger-ui can be accessed with `<your-server-or-localhost>:8080/swagger-ui.html`. With swagger-ui you will be able to consult and test the functionalities provided by the REST API of this project.
 
 Look above for a preview of swagger-ui.
 
